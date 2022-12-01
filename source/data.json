@@ -17,6 +17,6 @@
     {"id": 1, "name": "Jeune",  "price":75,"licence": 25, "minage": 7,"maxage":13,"cond":""},
     {"id": 2, "name": "Adolescent",  "price":105,"licence": 35, "minage": 14,"maxage":16,"cond":""},
     {"id": 3, "name": "Etudiant, Lycéen",  "price":115,"licence": 35, "minage": 17,"maxage":"","cond":"S'applique à la 2 ième personne d'une famille"},
-    {"id": 4, "name": "Adulte",  "price":135,"licence": 35, "minage": "","maxage":"","cond":""}
+    {"id": 4, "name": "Adulte",  "price":150,"licence": 35, "minage": "","maxage":"","cond":""}
   ]
 }
