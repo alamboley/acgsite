@@ -14,14 +14,7 @@
   $(function(){
     var url = window.location.pathname;  
     var activePage = url.substring(url.lastIndexOf('/')+1);
-    if (activePage=="portfolio-3-col.html#jeunes") {
-        var $container = $('.isotope');
-    // use filterFn if matches value
-    $container.isotope({ filter: '.jeunes' });
-  imagesLoaded($container, function() {
-    $container.isotope('layout');
-  });
-    }
+    
     if ((activePage=="index.html")||((activePage==""))) {
         $(".navbar-fixed-top").removeClass("sticky");
     }else{

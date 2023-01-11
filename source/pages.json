@@ -1,6 +1,5 @@
 [  
    { "name":"index", "title":"Accueil - Adultes" },
-   { "name":"jeunes", "title":"Jeunes" },
    { "name":"about", "title":"A propos - Club" },
    { "name":"contact", "title":"Contact - Plan d'accès" },
    { "name":"pricing", "title":"Cotisations" },
