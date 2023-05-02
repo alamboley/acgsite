@@ -666,5 +666,9 @@ body.modal-open {
   -moz-border-radius: 5px;
   color: #333;
   text-align: center;
+}
+
+#videointro {
+  text-align: center;
 
 }
