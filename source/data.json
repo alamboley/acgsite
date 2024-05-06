@@ -8,6 +8,6 @@
     {"id": 2, "name": "",  "day":"Jeudi","start": "19:30", "end": "21:00","page":"index"}
   ],
   "prices":[
-    {"id": 1, "name": "Adulte",  "price":150,"licence": 35, "minage": "","maxage":"","cond":""}
+    {"id": 1, "name": "Adulte",  "price":160,"licence": 35, "minage": "","maxage":"","cond":""}
   ]
 }
