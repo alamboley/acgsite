@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aikido-asptt-dijon.fr/sitemap.xml
