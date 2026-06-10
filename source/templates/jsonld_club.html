@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "Aïkido ASPTT Dijon",
+  "description": "Club d'aïkido à Dijon – Saint-Apollinaire, affilié à la FFAAA. Cours adultes, deux cours d'essai gratuits.",
+  "url": "https://aikido-asptt-dijon.fr/",
+  "telephone": "+33661807940",
+  "email": "benoitmorot7@gmail.com",
+  "image": "https://aikido-asptt-dijon.fr/images/dojo.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "24 Rue François Mitterrand",
+    "postalCode": "21850",
+    "addressLocality": "Saint-Apollinaire",
+    "addressRegion": "Bourgogne-Franche-Comté",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 47.329735,
+    "longitude": 5.093063
+  },
+  "sameAs": ["https://www.facebook.com/Aikido.dijon.asptt/"],
+  "openingHoursSpecification": [
+    {% for day,timeslot in timeslots %}{"@type": "OpeningHoursSpecification", "dayOfWeek": "https://schema.org/{{timeslot.class}}", "opens": "{{timeslot.min}}", "closes": "{{timeslot.max}}"}{% if not loop.last %},
+    {% endif %}{% endfor %}
+  ]
+}
+</script>

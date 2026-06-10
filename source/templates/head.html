@@ -1,24 +1,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="clecuret">
-    <meta name="robots" content="index,follow" />
-    <meta HTTP-EQUIV="Content-Language" CONTENT="fr-FR" />
-    <meta NAME="title" CONTENT="{{title}} - Aïkido ASPTT Dijon" />
-    <meta NAME="description" CONTENT="Site du club d'Aïkido ASPTT Dijon" />
-    <meta NAME="keywords" CONTENT="DOJO,AIKI,DAN,HARMONIE,BOURGOGNE,aikido,budo,aikiclub-dijon,dijon,asptt,saint-apollinaire,saint-apo,arts,martiaux,morihei,ueshiba,ffaaa,sport,hakama,kyu,activité" />
-    <meta NAME="subject" CONTENT="Portail des membres du club et information aux visiteurs sur l'aïkido ASPTT Dijon" />
-    <meta NAME="category" CONTENT="activité, Sport, loisir, club, France, Bourgogne, Dijon" />
-    <meta NAME="language" CONTENT="FR" />
-    <meta NAME="copyright" CONTENT="Aïkido ASPTT Dijon" />
-    <meta name="rating" content="general" />
-    <meta name="expires" content="never" />
+    <meta name="robots" content="index,follow">
     <title>{{title}} - Aïkido ASPTT Dijon</title>
-    <link rel="shortcut icon" href="favicon.ico" >
+    <meta name="description" content="{{description}}">
+    <link rel="canonical" href="https://aikido-asptt-dijon.fr/{% if pagename != 'index' %}{{pagename}}.html{% endif %}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aïkido ASPTT Dijon">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:title" content="{{title}} - Aïkido ASPTT Dijon">
+    <meta property="og:description" content="{{description}}">
+    <meta property="og:url" content="https://aikido-asptt-dijon.fr/{% if pagename != 'index' %}{{pagename}}.html{% endif %}">
+    <meta property="og:image" content="https://aikido-asptt-dijon.fr/images/dojo.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="shortcut icon" href="favicon.ico">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Add custom CSS here -->
     <link href="css/aikidoaspttdijon.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:300">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300">
+{% if pagename == 'index' or pagename == 'contact' %}{{ include('jsonld_club.html') }}{% endif %}
 </head>

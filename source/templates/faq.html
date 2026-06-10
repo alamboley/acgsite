@@ -124,3 +124,49 @@
     </div>
     <!-- /.container -->
 {% endblock %}
+
+{% block extrascript %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Y a-t-il des ceintures de couleur en Aïkido ?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Les niveaux correspondant aux ceintures colorées existent (on parle de Kyu) mais nous conservons une ceinture blanche jusqu'à l'obtention de la ceinture noire (du sixième kyu au premier kyu). La ceinture noire correspond au premier Dan, validant une connaissance formelle des techniques d'Aïkido."}
+    },
+    {
+      "@type": "Question",
+      "name": "À quoi correspond la « jupe » noire que porte une partie des pratiquants ?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Il s'agit d'un pantalon large à 7 plis appelé Hakama. Au sein de notre club, le Hakama est autorisé aux pratiquants ayant atteint le premier kyu (équivalent à la ceinture marron)."}
+    },
+    {
+      "@type": "Question",
+      "name": "Pratique-t-on aussi l'Aïkido avec des armes ?",
+      "acceptedAnswer": {"@type": "Answer", "text": "L'Aïkido se pratique essentiellement à mains nues, mais fait aussi appel au maniement d'armes traditionnelles : le bokken (sabre en bois), le jo (bâton) et le tanto (couteau en bois). Une partie des techniques à mains nues découlent des techniques aux armes."}
+    },
+    {
+      "@type": "Question",
+      "name": "L'Aïkido dispose-t-il d'une fédération ?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Notre club est affilié à la Fédération Française d'Aïkido, Aïkibudo et Affinitaires (FFAAA), agréée par l'État et membre de la Fédération Internationale d'Aïkido. Nous faisons partie de la ligue Bourgogne et nos enseignants sont des professeurs diplômés."}
+    },
+    {
+      "@type": "Question",
+      "name": "L'Aïkido n'est-il pas trop dur pour les femmes ?",
+      "acceptedAnswer": {"@type": "Answer", "text": "L'Aïkido est basé sur l'utilisation de la force de l'adversaire et évite l'usage de la force physique. Il est accessible à tous, quels que soient la morphologie, le sexe ou l'âge."}
+    },
+    {
+      "@type": "Question",
+      "name": "À quoi correspondent les stages ? Est-ce obligatoire ?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Non, les stages ne sont pas obligatoires mais il est conseillé d'y participer. Il n'y a pas de compétition en Aïkido : les stages sont l'occasion de pratiquer avec des personnes d'autres clubs et d'approfondir les techniques avec d'autres enseignants."}
+    },
+    {
+      "@type": "Question",
+      "name": "Faut-il avoir déjà pratiqué un art martial avant de venir à l'Aïkido ?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Non. Au club, vous rencontrerez des gens pour qui l'Aïkido est le premier art martial pratiqué, comme des personnes venues après plusieurs années de judo ou de karaté. L'absence de compétition ouvre la pratique au plus grand nombre."}
+    }
+  ]
+}
+</script>
+{% endblock %}

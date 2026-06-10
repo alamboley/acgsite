@@ -11,13 +11,13 @@ $data = json_decode(file_get_contents(__DIR__."/../source/data.json"),true);
 $pages = json_decode(file_get_contents(__DIR__."/../source/pages.json"));
 foreach ($pages as $page) {
     $sticky=($page->name=='index')?'':'sticky';
-    $params = array('title'=>$page->title,'sticky'=>$sticky);
+    $params = array('title'=>$page->title,'sticky'=>$sticky,'pagename'=>$page->name,'description'=>(isset($page->description)?$page->description:''));
     $params=array_merge($params,(array_key_exists($page->name, $data))?$data[$page->name]:array());
     if (($page->name=='pricing')) $params['prices'] = $data['prices'];
     $params=array_merge($params,getTimeslots($data['timeslots'],$page->name));
     file_put_contents(__DIR__."/../output/".$page->name.'.html', $twig->render($page->name.'.html',$params));
 }
-file_put_contents(__DIR__."/../output/sitemap.xml", $twig->render('sitemap.html',array('pages'=>$pages)));
+file_put_contents(__DIR__."/../output/sitemap.xml", $twig->render('sitemap.html',array('pages'=>$pages,'lastmod'=>date('Y-m-d'))));
 
 
 function getTimeslots($ts,$pagename){

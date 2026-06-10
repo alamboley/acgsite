@@ -1,11 +1,9 @@
-[  
-   { "name":"index", "title":"Accueil - Adultes" },
-   { "name":"about", "title":"À propos - Club" },
-   { "name":"contact", "title":"Contact - Plan d'accès" },
-   { "name":"pricing", "title":"Cotisations" },
-   { "name":"faq", "title":"FAQ" },
-   { "name":"history", "title":"Histoire" },
-   { "name":"portfolio-3-col", "title":"Photothèque" }
-   
+[
+   { "name":"index", "title":"Club d'aïkido à Dijon", "description":"Club d'aïkido à Dijon – Saint-Apollinaire (ASPTT). Cours adultes lundi et jeudi de 19h30 à 21h, 2 cours d'essai gratuits. Club affilié FFAAA." },
+   { "name":"about", "title":"Le club et les enseignants", "description":"Le club d'aïkido ASPTT Dijon, fondé en 2003 : professeurs diplômés gradés jusqu'au 7e dan, ambiance conviviale, ouvert à tous de 16 à 76 ans." },
+   { "name":"contact", "title":"Contact et plan d'accès", "description":"Dojo ASPTT Dijon, 24 rue François Mitterrand, 21850 Saint-Apollinaire. Horaires des cours, téléphone, email et plan d'accès au club d'aïkido." },
+   { "name":"pricing", "title":"Tarifs et cotisations", "description":"Cotisations du club d'aïkido ASPTT Dijon : tarifs adulte, senior et étudiant + licence FFAAA. Deux cours d'essai gratuits." },
+   { "name":"faq", "title":"FAQ sur l'aïkido", "description":"Questions fréquentes sur l'aïkido : ceintures et grades, hakama, armes (bokken, jo, tanto), fédération FFAAA, stages, débuter sans expérience." },
+   { "name":"history", "title":"Histoire de l'aïkido", "description":"L'histoire de l'aïkido et de son fondateur Morihei Ueshiba : les origines de cet art martial japonais." },
+   { "name":"portfolio-3-col", "title":"Photothèque", "description":"Photos du club d'aïkido ASPTT Dijon : cours, stages et événements au dojo de Saint-Apollinaire." }
 ]
-
