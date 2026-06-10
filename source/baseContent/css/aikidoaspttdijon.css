@@ -672,3 +672,10 @@ body.modal-open {
   text-align: center;
 
 }
+
+#videointro iframe {
+  width: 560px;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
