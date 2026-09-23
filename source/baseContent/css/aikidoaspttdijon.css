@@ -668,8 +668,9 @@ body.modal-open {
   text-align: center;
 }
 
-/* Ancre de la section d'adhésion : laisse la place à la barre de navigation fixe */
-#adhesion {
+/* Ancre de la section d'adhésion (id « inscription » : « adhesion » est masqué par EasyList/AdBlock) :
+   laisse la place à la barre de navigation fixe */
+#inscription {
   scroll-margin-top: 70px;
 }
 
