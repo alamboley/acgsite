@@ -668,6 +668,11 @@ body.modal-open {
   text-align: center;
 }
 
+/* Ancre de la section d'adhésion : laisse la place à la barre de navigation fixe */
+#adhesion {
+  scroll-margin-top: 70px;
+}
+
 #videointro {
   text-align: center;
 
